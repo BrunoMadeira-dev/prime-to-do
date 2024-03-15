@@ -12,7 +12,8 @@ protocol TaskManager {
      
     func saveListItemData(item: String, done: Bool)
     func getAllItems() -> [ToDoListItem]
-    func updateListItemData(item: ToDoListItem, newName: String, newDone: Bool)
+    func updateListItemData(sameItem: ToDoListItem, item: String, newDone: Bool)
+    func deleteItem(sameItem: ToDoListItem)
 }
 
 class TaskManagerImplementation: TaskManager {
@@ -35,8 +36,13 @@ class TaskManagerImplementation: TaskManager {
             return []
         }
     }
-    func updateListItemData(item: ToDoListItem, newName: String, newDone: Bool) {
-        
+    
+    func updateListItemData(sameItem: ToDoListItem, item: String, newDone: Bool) {
+        repository?.updateListItemData(sameItem: sameItem, item: item, done: newDone)
+    }
+    
+    func deleteItem(sameItem: ToDoListItem) {
+        repository?.deleteItem(sameItem: sameItem)
     }
     
 }

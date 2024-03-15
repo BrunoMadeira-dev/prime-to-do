@@ -17,8 +17,15 @@ class StorageToDoAdapter: TaskRepository {
         self.context = context
     }
     
-    func updateListItemData(item: ToDoListItem) {
-        
+    func updateListItemData(sameItem: ToDoListItem, item: String, done: Bool) {
+        let newItem = sameItem
+        newItem.name = item
+        newItem.done = done
+        do {
+            try context.save()
+        } catch {
+            print(error)
+        }
     }
     
     
@@ -46,8 +53,8 @@ class StorageToDoAdapter: TaskRepository {
         }
     }
     
-    func updateListItemData(item: String, done: Bool) {
-       
+    func deleteItem(sameItem: ToDoListItem) {
+        context.delete(sameItem)
         do {
             try context.save()
         } catch {

@@ -11,5 +11,6 @@ import Foundation
 protocol TaskRepository {
     func saveListItemData(item: String, done: Bool)
     func getAllItems() -> [ToDoListItem]
-    func updateListItemData(item: String, done: Bool)
+    func updateListItemData(sameItem: ToDoListItem, item: String, done: Bool)
+    func deleteItem(sameItem: ToDoListItem)
 }

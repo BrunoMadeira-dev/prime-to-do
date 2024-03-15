@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5469CFB72BA477130069B5AF /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469CFB62BA477130069B5AF /* ToDoListItem+CoreDataProperties.swift */; };
+		5469CFB92BA4775F0069B5AF /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469CFB82BA4775F0069B5AF /* ToDoListItem+CoreDataClass.swift */; };
 		54D62D7C2BA3909F00AE21BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D7B2BA3909F00AE21BD /* AppDelegate.swift */; };
 		54D62D7E2BA3909F00AE21BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D7D2BA3909F00AE21BD /* SceneDelegate.swift */; };
-		54D62D802BA3909F00AE21BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D7F2BA3909F00AE21BD /* ViewController.swift */; };
+		54D62D802BA3909F00AE21BD /* PrimeToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D7F2BA3909F00AE21BD /* PrimeToDoViewController.swift */; };
 		54D62D832BA3909F00AE21BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D62D812BA3909F00AE21BD /* Main.storyboard */; };
 		54D62D862BA3909F00AE21BD /* Prime_To_Do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D842BA3909F00AE21BD /* Prime_To_Do.xcdatamodeld */; };
 		54D62D882BA390A200AE21BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D62D872BA390A200AE21BD /* Assets.xcassets */; };
@@ -17,6 +19,9 @@
 		54D62D962BA390A200AE21BD /* Prime_To_DoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D952BA390A200AE21BD /* Prime_To_DoTests.swift */; };
 		54D62DA02BA390A200AE21BD /* Prime_To_DoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D9F2BA390A200AE21BD /* Prime_To_DoUITests.swift */; };
 		54D62DA22BA390A200AE21BD /* Prime_To_DoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62DA12BA390A200AE21BD /* Prime_To_DoUITestsLaunchTests.swift */; };
+		54D62DBB2BA3AA8600AE21BD /* StorageToDoAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62DBA2BA3AA8600AE21BD /* StorageToDoAdapter.swift */; };
+		54D62DBD2BA431BB00AE21BD /* ToDoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62DBC2BA431BB00AE21BD /* ToDoRepository.swift */; };
+		54D62F022BA4532300AE21BD /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62F012BA4532300AE21BD /* TaskRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5469CFB62BA477130069B5AF /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ToDoListItem+CoreDataProperties.swift"; path = "../../ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5469CFB82BA4775F0069B5AF /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		54D62D782BA3909F00AE21BD /* Prime-To-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prime-To-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D62D7B2BA3909F00AE21BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54D62D7D2BA3909F00AE21BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54D62D7F2BA3909F00AE21BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54D62D7F2BA3909F00AE21BD /* PrimeToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeToDoViewController.swift; sourceTree = "<group>"; };
 		54D62D822BA3909F00AE21BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54D62D852BA3909F00AE21BD /* Prime_To_Do.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prime_To_Do.xcdatamodel; sourceTree = "<group>"; };
 		54D62D872BA390A200AE21BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 		54D62D9B2BA390A200AE21BD /* Prime-To-DoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prime-To-DoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D62D9F2BA390A200AE21BD /* Prime_To_DoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_To_DoUITests.swift; sourceTree = "<group>"; };
 		54D62DA12BA390A200AE21BD /* Prime_To_DoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_To_DoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54D62DBA2BA3AA8600AE21BD /* StorageToDoAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageToDoAdapter.swift; sourceTree = "<group>"; };
+		54D62DBC2BA431BB00AE21BD /* ToDoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRepository.swift; sourceTree = "<group>"; };
+		54D62F012BA4532300AE21BD /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +111,13 @@
 		54D62D7A2BA3909F00AE21BD /* Prime-To-Do */ = {
 			isa = PBXGroup;
 			children = (
+				54D62DB92BA3957700AE21BD /* Resources */,
+				54D62DB62BA394F000AE21BD /* UI */,
+				54D62DB42BA394D900AE21BD /* Ports */,
+				54D62DB32BA394D000AE21BD /* Adapters */,
+				54D62DB22BA394B300AE21BD /* Models */,
 				54D62D7B2BA3909F00AE21BD /* AppDelegate.swift */,
 				54D62D7D2BA3909F00AE21BD /* SceneDelegate.swift */,
-				54D62D7F2BA3909F00AE21BD /* ViewController.swift */,
 				54D62D812BA3909F00AE21BD /* Main.storyboard */,
 				54D62D872BA390A200AE21BD /* Assets.xcassets */,
 				54D62D892BA390A200AE21BD /* LaunchScreen.storyboard */,
@@ -128,6 +142,47 @@
 				54D62DA12BA390A200AE21BD /* Prime_To_DoUITestsLaunchTests.swift */,
 			);
 			path = "Prime-To-DoUITests";
+			sourceTree = "<group>";
+		};
+		54D62DB22BA394B300AE21BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5469CFB82BA4775F0069B5AF /* ToDoListItem+CoreDataClass.swift */,
+				5469CFB62BA477130069B5AF /* ToDoListItem+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54D62DB32BA394D000AE21BD /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				54D62DBA2BA3AA8600AE21BD /* StorageToDoAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		54D62DB42BA394D900AE21BD /* Ports */ = {
+			isa = PBXGroup;
+			children = (
+				54D62DBC2BA431BB00AE21BD /* ToDoRepository.swift */,
+				54D62F012BA4532300AE21BD /* TaskRepository.swift */,
+			);
+			path = Ports;
+			sourceTree = "<group>";
+		};
+		54D62DB62BA394F000AE21BD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				54D62D7F2BA3909F00AE21BD /* PrimeToDoViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		54D62DB92BA3957700AE21BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54D62D802BA3909F00AE21BD /* ViewController.swift in Sources */,
+				5469CFB72BA477130069B5AF /* ToDoListItem+CoreDataProperties.swift in Sources */,
+				54D62D802BA3909F00AE21BD /* PrimeToDoViewController.swift in Sources */,
 				54D62D862BA3909F00AE21BD /* Prime_To_Do.xcdatamodeld in Sources */,
 				54D62D7C2BA3909F00AE21BD /* AppDelegate.swift in Sources */,
+				54D62F022BA4532300AE21BD /* TaskRepository.swift in Sources */,
 				54D62D7E2BA3909F00AE21BD /* SceneDelegate.swift in Sources */,
+				54D62DBB2BA3AA8600AE21BD /* StorageToDoAdapter.swift in Sources */,
+				5469CFB92BA4775F0069B5AF /* ToDoListItem+CoreDataClass.swift in Sources */,
+				54D62DBD2BA431BB00AE21BD /* ToDoRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E9FDC3D-4584-42E3-B89F-16939268CB91"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "388DDBA7-D0E8-492A-A0B5-78B74733FF5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prime-To-Do/UI/PrimeToDoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "addAction(item:done:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "388DDBA7-D0E8-492A-A0B5-78B74733FF5F - 7910b2d9cd46d1cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.PrimeToDoViewController.addAction(item: Swift.String, done: Swift.Bool) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "388DDBA7-D0E8-492A-A0B5-78B74733FF5F - 7910b2d9cd46d1cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.PrimeToDoViewController.addAction(item: Swift.String, done: Swift.Bool) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7708C830-6EC9-4E25-B77A-081CD1ECC67B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prime-To-Do/UI/PrimeToDoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "addNewItem(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7708C830-6EC9-4E25-B77A-081CD1ECC67B - 3cd33a0dd816853a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UITextField) -&gt; () in Prime_To_Do.PrimeToDoViewController.addNewItem(Any) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "7708C830-6EC9-4E25-B77A-081CD1ECC67B - 3cd33a0dd816853a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UITextField) -&gt; () in Prime_To_Do.PrimeToDoViewController.addNewItem(Any) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "166A6076-F61E-48BB-AE7C-680737C7CA6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prime-To-Do/UI/PrimeToDoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "addNewItem(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "166A6076-F61E-48BB-AE7C-680737C7CA6B - 4810e40ee179ebee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Prime_To_Do.PrimeToDoViewController.addNewItem(Any) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "166A6076-F61E-48BB-AE7C-680737C7CA6B - 4810e40ee179ebee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Prime_To_Do.PrimeToDoViewController.addNewItem(Any) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "580">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE3BAE24-76AB-4B84-A883-FD1BCE94F3A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "saveListItemData(item:done:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE3BAE24-76AB-4B84-A883-FD1BCE94F3A5 - 707163af5097b372"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.StorageToDoAdapter.updateListItemData(item: Prime_To_Do.ToDoListItem, newName: Swift.String, newDone: Swift.Bool) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "CE3BAE24-76AB-4B84-A883-FD1BCE94F3A5 - be40b3201dfeccea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.StorageToDoAdapter.saveListItemData(item: Prime_To_Do.ToDoListItem) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "CE3BAE24-76AB-4B84-A883-FD1BCE94F3A5 - be40b3201dfecc8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.StorageToDoAdapter.saveListItemData(item: Prime_To_Do.ToDoListItem) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "CE3BAE24-76AB-4B84-A883-FD1BCE94F3A5 - 70ec07b3c20f4470"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.StorageToDoAdapter.saveListItemData(item: Swift.String, done: Swift.Bool) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "754892FA-200D-4C99-947C-A2FA3695F630"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getAllItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "754892FA-200D-4C99-947C-A2FA3695F630 - 15ed39a217bdce3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.StorageToDoAdapter.getAllItems() -&gt; Swift.Array&lt;Prime_To_Do.ToDoListItem&gt;"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "754892FA-200D-4C99-947C-A2FA3695F630 - 15ed39a217bdce3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.StorageToDoAdapter.getAllItems() -&gt; Swift.Array&lt;Prime_To_Do.ToDoListItem&gt;"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/Adapters/StorageToDoAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91E6D98C-F8A7-4F8B-B47D-E7B1B610C5D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prime-To-Do/UI/PrimeToDoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "addAction(item:done:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91E6D98C-F8A7-4F8B-B47D-E7B1B610C5D7 - 7910b2d9cd46d1ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.PrimeToDoViewController.addAction(item: Swift.String, done: Swift.Bool) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "91E6D98C-F8A7-4F8B-B47D-E7B1B610C5D7 - 7910b2d9cd46d10f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prime_To_Do.PrimeToDoViewController.addAction(item: Swift.String, done: Swift.Bool) -&gt; ()"
+                  moduleName = "Prime-To-Do"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomadeira/Desktop/Development/Prime-To-Do/Prime-To-Do/UI/PrimeToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E10A720-C919-41A1-9134-42610581F5C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListItem+CoreDataProperties.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "832405EB-BAB5-4CEC-8397-9C579196012A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prime-To-Do/Ports/ToDoRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "saveListItemData(item:done:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -10,7 +10,7 @@ import CoreData
 
 class PrimeToDoViewController: UITableViewController {
 
-    var taskManager: TaskManagerImplementation?
+    var taskManager: StorageToDoAdapter?
     var tasks: [ToDoListItem] = []
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     var done: Bool = false
@@ -19,8 +19,8 @@ class PrimeToDoViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let context = context
-        let coreDataRepository = StorageToDoAdapter(context: context)
-        let taskManager = TaskManagerImplementation(repository: coreDataRepository, context: context)
+        let coreDataRepository = TaskManagerImplementation(context: context)
+        let taskManager = StorageToDoAdapter(repository: coreDataRepository, context: context)
         self.taskManager = taskManager
         loadItems()
         //tableView.reloadData()

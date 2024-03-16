@@ -9,56 +9,40 @@ import Foundation
 import CoreData
 import UIKit
 
-class StorageToDoAdapter: TaskRepository {
+protocol TaskManager {
+     
+    func saveListItemData(item: String, done: Bool)
+    func getAllItems() -> [ToDoListItem]
+    func updateListItemData(sameItem: ToDoListItem, item: String, newDone: Bool)
+    func deleteItem(sameItem: ToDoListItem)
+}
+
+class StorageToDoAdapter: TaskManager {
     
+    let repository: TaskRepository?
     let context: NSManagedObjectContext
     
-    init(context: NSManagedObjectContext) {
+    init(repository: TaskRepository?, context: NSManagedObjectContext) {
+        self.repository = repository
         self.context = context
     }
     
-    func updateListItemData(sameItem: ToDoListItem, item: String, done: Bool) {
-        let newItem = sameItem
-        newItem.name = item
-        newItem.done = done
-        do {
-            try context.save()
-        } catch {
-            print(error)
-        }
+    func saveListItemData(item: String, done: Bool) {
+        repository?.saveListItemData(item: item, done: done)
     }
-    
-    
-    //let context2 = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    var itemArray = [ToDoListItem]()
-    
     func getAllItems() -> [ToDoListItem] {
-        do {
-            itemArray = try context.fetch(ToDoListItem.fetchRequest())
+        if let itemArray = repository?.getAllItems() {
             return itemArray
-        } catch {
-            print(error)
+        } else {
             return []
         }
     }
     
-    func saveListItemData(item: String, done: Bool) {
-        let newItem = ToDoListItem(context: context)
-        newItem.name = item
-        newItem.done = done
-        do {
-            try context.save()
-        } catch {
-            print(error)
-        }
+    func updateListItemData(sameItem: ToDoListItem, item: String, newDone: Bool) {
+        repository?.updateListItemData(sameItem: sameItem, item: item, done: newDone)
     }
     
     func deleteItem(sameItem: ToDoListItem) {
-        context.delete(sameItem)
-        do {
-            try context.save()
-        } catch {
-            print(error)
-        }
+        repository?.deleteItem(sameItem: sameItem)
     }
 }

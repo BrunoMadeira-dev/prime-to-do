@@ -21,7 +21,7 @@
 		54D62DA02BA390A200AE21BD /* Prime_To_DoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62D9F2BA390A200AE21BD /* Prime_To_DoUITests.swift */; };
 		54D62DA22BA390A200AE21BD /* Prime_To_DoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62DA12BA390A200AE21BD /* Prime_To_DoUITestsLaunchTests.swift */; };
 		54D62DBB2BA3AA8600AE21BD /* StorageToDoAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62DBA2BA3AA8600AE21BD /* StorageToDoAdapter.swift */; };
-		54D62DBD2BA431BB00AE21BD /* ToDoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62DBC2BA431BB00AE21BD /* ToDoRepository.swift */; };
+		54D62DBD2BA431BB00AE21BD /* ToDoRepositoryPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62DBC2BA431BB00AE21BD /* ToDoRepositoryPort.swift */; };
 		54D62F022BA4532300AE21BD /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62F012BA4532300AE21BD /* TaskRepository.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +61,7 @@
 		54D62D9F2BA390A200AE21BD /* Prime_To_DoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_To_DoUITests.swift; sourceTree = "<group>"; };
 		54D62DA12BA390A200AE21BD /* Prime_To_DoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_To_DoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		54D62DBA2BA3AA8600AE21BD /* StorageToDoAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageToDoAdapter.swift; sourceTree = "<group>"; };
-		54D62DBC2BA431BB00AE21BD /* ToDoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRepository.swift; sourceTree = "<group>"; };
+		54D62DBC2BA431BB00AE21BD /* ToDoRepositoryPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRepositoryPort.swift; sourceTree = "<group>"; };
 		54D62F012BA4532300AE21BD /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,7 +158,8 @@
 		54D62DB32BA394D000AE21BD /* Adapters */ = {
 			isa = PBXGroup;
 			children = (
-				54D62DBA2BA3AA8600AE21BD /* StorageToDoAdapter.swift */,
+				54D62DBC2BA431BB00AE21BD /* ToDoRepositoryPort.swift */,
+				54D62F012BA4532300AE21BD /* TaskRepository.swift */,
 			);
 			path = Adapters;
 			sourceTree = "<group>";
@@ -166,8 +167,7 @@
 		54D62DB42BA394D900AE21BD /* Ports */ = {
 			isa = PBXGroup;
 			children = (
-				54D62DBC2BA431BB00AE21BD /* ToDoRepository.swift */,
-				54D62F012BA4532300AE21BD /* TaskRepository.swift */,
+				54D62DBA2BA3AA8600AE21BD /* StorageToDoAdapter.swift */,
 			);
 			path = Ports;
 			sourceTree = "<group>";
@@ -328,7 +328,7 @@
 				54D62D7E2BA3909F00AE21BD /* SceneDelegate.swift in Sources */,
 				54D62DBB2BA3AA8600AE21BD /* StorageToDoAdapter.swift in Sources */,
 				5469CFB92BA4775F0069B5AF /* ToDoListItem+CoreDataClass.swift in Sources */,
-				54D62DBD2BA431BB00AE21BD /* ToDoRepository.swift in Sources */,
+				54D62DBD2BA431BB00AE21BD /* ToDoRepositoryPort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

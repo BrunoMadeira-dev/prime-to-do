@@ -28,11 +28,10 @@ class TaskManagerImplementation: TaskRepository {
             print(error)
         }
     }
-    
-    
-    //let context2 = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
     var itemArray = [ToDoListItem]()
     
+    //function to get all items when app is opened
     func getAllItems() -> [ToDoListItem] {
         do {
             itemArray = try context.fetch(ToDoListItem.fetchRequest())

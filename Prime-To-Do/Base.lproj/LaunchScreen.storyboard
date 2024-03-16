@@ -16,17 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="PrimeToDo" translatesAutoresizingMaskIntoConstraints="NO" id="rqN-SJ-l9x">
-                                <rect key="frame" x="0.0" y="268" width="420" height="260"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PrimeToDo" translatesAutoresizingMaskIntoConstraints="NO" id="rqN-SJ-l9x">
+                                <rect key="frame" x="30" y="262" width="363" height="260"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rqN-SJ-l9x" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ICd-KM-nnn"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rqN-SJ-l9x" secondAttribute="bottom" constant="297" id="Jf3-Yy-5UI"/>
-                            <constraint firstItem="rqN-SJ-l9x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="209" id="P0y-Wu-npX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="rqN-SJ-l9x" secondAttribute="leading" constant="20" id="phK-Hw-KPS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqN-SJ-l9x" secondAttribute="trailing" id="ILZ-hJ-Nax"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rqN-SJ-l9x" secondAttribute="bottom" constant="296" id="Jf3-Yy-5UI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="rqN-SJ-l9x" secondAttribute="leading" constant="-30" id="Mnn-uS-7Ab"/>
+                            <constraint firstItem="rqN-SJ-l9x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="203" id="P0y-Wu-npX"/>
                         </constraints>
                     </view>
                 </viewController>

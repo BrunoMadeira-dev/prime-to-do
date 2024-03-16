@@ -29,6 +29,7 @@ class PrimeToDoViewController: UITableViewController {
     func loadItems() {
         guard let task = taskManager else { return }
         tasks = task.getAllItems()
+        title = "Prime ToDo "
         tableView.reloadData()
     }
 

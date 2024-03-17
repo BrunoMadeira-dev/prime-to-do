@@ -17,19 +17,17 @@ class PrimeToDoViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Prime ToDo"
         let context = context
         let coreDataRepository = TaskManagerImplementation(context: context)
         let taskManager = StorageToDoAdapter(repository: coreDataRepository, context: context)
         self.taskManager = taskManager
         loadItems()
-        //tableView.reloadData()
     }
     
     func loadItems() {
         guard let task = taskManager else { return }
         tasks = task.getAllItems()
-        title = "Prime ToDo "
         tableView.reloadData()
     }
 
@@ -70,9 +68,9 @@ class PrimeToDoViewController: UITableViewController {
     @IBAction func addNewItem(_ sender: Any) {
         var textField = UITextField()
         
-        let alert = UIAlertController(title: "Add new item", message: "", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Add new task", message: "", preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "Item", style: .default) { action in
+        let actionCreate = UIAlertAction(title: "Add", style: .default) { action in
             print("Success")
             
             if let text = textField.text {
@@ -81,7 +79,7 @@ class PrimeToDoViewController: UITableViewController {
                     self.addAction(item: text, done: false)
                 } else {
                     //displays a Warning to tell that a item can't be empty
-                    let alert = Utils().showPopup(title: "Warning", message: "Item can't be empty")
+                    let alert = Utils().showPopup(title: "Warning", message: "Task can't be empty")
                     self.present(alert, animated: true)
                 }
             }
@@ -92,7 +90,8 @@ class PrimeToDoViewController: UITableViewController {
             textField = alertTextField
         }
         
-        alert.addAction(action)
+        alert.addAction(actionCreate)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         present(alert, animated: true, completion: nil)
     }
     
